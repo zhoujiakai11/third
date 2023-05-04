@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .column{
+        box-sizing: border-box;
+    }
+
+    .header{
+        background-color: grey;
+        color: white;
+        padding-top: 15px ;
+    }
+
+    .footer{
+        background-color: grey;
+        color: white;
+        padding: 15px;
+    }
+
+    .header{
+        ;
+    }
+
+    .black{padding: 5px;}
+
+    .horizon{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    }
+
+    .horizon li{
+        float: left;
+    }
+
+    .horizon a{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .horizon a:hover{
+        background-color: #111;
+    }
+    
+    .active{
+        background-color: red;
+    }
+
+    li{
+    list-style-type: none;}
+
+    .menu{
+        float: left;
+        padding: 15px;
+        width: 14%;
+    }
+
+    .content{
+        margin-top: 35px;
+        float: left;
+        padding: 15px;
+        width: 75%;
+        
+    }
+
+    .footer{
+        clear:both
+    }
+
+    .menu li{
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: aqua;
+        color: white;
+    }
+
+   </style>
+   
+</head>
+<body>
+    <div class="header">
+        <h1>Chania</h1>
+    </div>
+    
+    <div class="black">
+        <ul class="horizon">
+            <li><a href="https://www.hdu.edu.cn/" class="active">Home</a></li>
+            <li><a href="https://www.hdu.edu.cn/">News</a></li>
+            <li><a href="https://www.hdu.edu.cn/">Contact</a></li>
+            <li><a href="https://www.hdu.edu.cn/">About</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <div class="column menu">
+            <ul>
+                <li>the flight</li>
+                <li>the city</li>
+                <li>the island</li>
+                <li>the food</li>
+            </ul>
+        </div>
+
+        <div class="column content">
+            <h1>the city</h1>
+            <p>chania is the capital of the chania region on the island of crete</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>footer text</p>
+    </div>
+</body>
+</html>
